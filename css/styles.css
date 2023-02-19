@@ -6,6 +6,7 @@
     --blue: #4d5ae5;
     --white-two: #e7e9fc;
     --white-three: #f4f4fd
+    
    ;}
 
 ul {
@@ -155,8 +156,15 @@ body {
 .hero {
     padding-top: 188px;
         padding-bottom: 188px;
-        background-color: var(--navy);
         text-align: center;
+        background-color: var(--navy);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        
 }
     
 
@@ -205,6 +213,19 @@ body {
 .about {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.about-list-img {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.about-link {
+    display: block;
+}
+
+.about-icon {
+    width: 264px;
+    height: 112px;
 }
 .about-list {
     display: flex;
@@ -296,9 +317,59 @@ background-color: var(--white);}
         color:var(--contact-cl);
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+    .socials-list {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
     }
 
+    .socials-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--blue);
+   
+    }
+    .socials-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .socials-icon {
+        width: 16px;
+        height: 16px;
+       fill: var(--white);
+       
+    }
+        .customers {
+            padding-top: 102px;
+            padding-bottom: 120px;
+            
+        }
+    .customers-title {
+    color: var(--navy);
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        margin-bottom: 72px;
+        text-align: center;
+    }
+    .customers-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+    }
+
+    .customers-icon {
+        width: 168px;
+        height: 88px;
+    }
 
 .footer {
     background-color:var(--navy) ;

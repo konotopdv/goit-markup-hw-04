@@ -224,6 +224,9 @@ body {
 .about-link {
     display: block;
 }
+.about-link:not(:last-child) {
+    margin-right: 24px;
+}
 
 .about-icon {
   
@@ -380,6 +383,10 @@ background-color: var(--white);}
     background-color:var(--navy) ;
     padding-top: 100px;
         padding-bottom: 100px;
+}
+.footer-container{
+    display: flex;
+    gap:120px;
 }
 .footer-text{
     color: var(--white-two);

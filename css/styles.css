@@ -13,6 +13,8 @@
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -404,7 +406,8 @@ background-color: var(--white);}
     .customers-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
+    padding: 0;
+    margin: 0;
     
     }
 
@@ -527,6 +530,7 @@ border: 1px solid var(--white-two);
     background-color: var(--cl-hover);
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .section-img {
